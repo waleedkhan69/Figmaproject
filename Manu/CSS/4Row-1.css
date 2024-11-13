@@ -1,0 +1,25 @@
+.main {
+  background-color: #28252df3;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgb(15, 6, 6), 0 0 20px rgb(52, 25, 25),
+    0 0 30px rgb(97, 62, 62);
+}
+
+.child1 {
+  display: flex;
+  color: white;
+  align-items: center;
+  justify-content: start;
+  gap: 20px;
+}
+.child1 i {
+  color: red;
+}
+.child {
+  display: flex;
+  color: white;
+  align-items: center;
+  justify-content: start;
+  gap: 20px;
+}

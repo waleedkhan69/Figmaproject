@@ -140,6 +140,12 @@ span i {
     width: 35px;
     height: 35px;
   }
+  .setup2 {
+    font-size: 15px;
+  }
+  .setup3 {
+    font-size: 15px;
+  }
   .nav {
     flex-direction: column;
     margin-top: 15px;
@@ -185,4 +191,12 @@ button p {
   text-shadow: 0 0 2px #fff, 0 0 3px #fff, 0 0 10px #ff00ff, 0 0 10px #ff00ff,
     0 0 10px #ff00ff, 0 0 20px #ff00ff, 0 0 10px #ff00ff;
   color: white;
+}
+@media (max-width: 768px) {
+  .delicon .setup2 {
+    font-size: 1px;
+  }
+  .setup3 {
+    font-size: 1px;
+  }
 }
